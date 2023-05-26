@@ -1,65 +1,71 @@
 .Header {
-    background-color: rgb(236, 235, 236);
+  background-color: rgb(236, 235, 236);
 }
 .Web1 {
-    color: rgb(33, 150, 243);
+  color: rgb(33, 150, 243);
 }
 .Studio1 {
-    color: rgb(33, 33, 33);
+  color: rgb(33, 33, 33);
 }
 .HeadContacts {
-    text-decoration:none;
-    color: rgb(33, 33, 33);
-  }
+  text-decoration: none;
+  color: rgb(33, 33, 33);
+}
 .HeadContacts:hover {
-    color: rgb(33, 150, 243);
+  color: rgb(33, 150, 243);
 }
 .Contacts {
-    color: rgb(117, 117, 117);
+  color: rgb(117, 117, 117);
 }
 .Contacts:hover {
-  color: rgb(33, 150, 243) ;
+  color: rgb(33, 150, 243);
 }
 .effects {
-    color: white;
+  color: white;
 }
-.button1 {
-    color: white;
-    background-color: rgb(33, 150, 243);
-}
-.AttentionDD {
-    color: rgb(33, 33, 33);
-}
-.AttentionDDtext {
-    color: rgb(117, 117, 117);
-}
-.WhatDoing {
-    color: rgb(33, 33, 33);
-}
-.CommanBackGround {
-    background-color: rgb(245, 244, 250);
-}
-.HeadCommand {
-    color: rgb(33, 33, 33);
-}
-.Command {
- color: rgb(33, 33, 33);
-}
-.CommandStats {
-    color: rgb(117, 117, 117);
-}
-.Web2 {
-    color: rgb(33, 150, 243);
-}
-.Studio2 {
-    color: rgb(255, 255, 255);
-}
-.Footer {
+.EffectsBackground {
     background-color: rgb(47, 48, 58);
 }
+.button1 {
+  color: white;
+  background-color: rgb(33, 150, 243);
+}
+.AttentionDD {
+  color: rgb(33, 33, 33);
+}
+.AttentionDDtext {
+  color: rgb(117, 117, 117);
+}
+.WhatDoing {
+  color: rgb(33, 33, 33);
+}
+.CommanBackGround {
+  background-color: rgb(245, 244, 250);
+}
+.HeadCommand {
+  color: rgb(33, 33, 33);
+}
+.Command {
+  color: rgb(33, 33, 33);
+}
+.CommandStats {
+  color: rgb(117, 117, 117);
+}
+.Web2 {
+  color: rgb(33, 150, 243);
+}
+.Studio2 {
+  color: rgb(255, 255, 255);
+}
+.Footer {
+  background-color: rgb(47, 48, 58);
+}
 .FooterAdress {
-    color: white;
+  color: white;
 }
 .FooterContacts {
-    color: rgb(117, 117, 117);
+  color: rgb(117, 117, 117);
+}
+.FooterContacts:hover {
+    color: rgb(33, 150, 243);
 }
