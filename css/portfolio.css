@@ -1,0 +1,57 @@
+li {
+    list-style-type: none;
+  }
+.Header {
+    background-color: rgb(236, 235, 236);
+  }
+  .Web1 {
+    color: rgb(33, 150, 243);
+  }
+  .Studio1 {
+    color: rgb(33, 33, 33);
+  }
+.HeadContacts {
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+  }
+  .HeadContacts:hover {
+    color: rgb(33, 150, 243);
+  }
+  .Contacts {
+    color: rgb(117, 117, 117);
+  }
+  .Contacts:hover {
+    color: rgb(33, 150, 243);
+  }
+.buttons5 {
+    background-color: rgb(245, 244, 250);
+    border: 0ch;
+}
+.buttons5:hover {
+    background-color: rgb(33, 150, 243);
+    border: 0ch;
+}
+.Name {
+ color: rgb(33, 33, 33);
+}
+.WhatThis {
+color: rgb(117, 117, 117);
+}
+.Web2 {
+    color: rgb(33, 150, 243);
+  }
+  .Studio2 {
+    color: rgb(255, 255, 255);
+  }
+  .Footer {
+    background-color: rgb(47, 48, 58);
+  }
+  .FooterAdress {
+    color: white;
+  }
+  .FooterContacts {
+    color: rgb(117, 117, 117);
+  }
+  .FooterContacts:hover {
+      color: rgb(33, 150, 243);
+  }
