@@ -1,3 +1,8 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
 body {
   font-family: Roboto;
 }
@@ -7,7 +12,7 @@ li {
 .header {
     background-color: rgb(236, 235, 236);
   }
-  .header_web {
+  .header_logow {
     color: rgb(33, 150, 243);
     font-size: 26px;
 font-family: Raleway;
@@ -16,7 +21,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
   }
-  .header_studio {
+  .header_logos {
     color: rgb(33, 33, 33);
     font-size: 26px;
 font-family: Raleway;
@@ -58,7 +63,7 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
   }
-.main_buttons5 {
+.hub_btn {
     background-color: rgb(245, 244, 250);
     border: 0cm;
     text-align: center;
@@ -68,7 +73,7 @@ font-weight: 500;
 line-height: 26px;
 letter-spacing: 0.48px;
 }
-.main_buttons5:hover {
+.hub_btn:hover {
     background-color: rgb(33, 150, 243);
     border: 0cm;
     text-align: center;
@@ -78,7 +83,7 @@ font-weight: 500;
 line-height: 26px;
 letter-spacing: 0.48px;
 }
-.main_cardtitle {
+.menu_title {
     color: #212121;
     font-size: 18px;
     font-family: Roboto;
@@ -87,7 +92,7 @@ letter-spacing: 0.48px;
     line-height: 36px;
     letter-spacing: 1.08px;
 }
-.main_cardmeans {
+.menu_means {
 color: rgb(117, 117, 117);
 font-size: 16px;
 font-style: normal;
@@ -98,7 +103,7 @@ letter-spacing: 0.48px;
 .footer {
   background-color: rgb(47, 48, 58);
 }
-.footer_web {
+.footer_logow {
     color: rgb(33, 150, 243);
     font-size: 26px;
 font-family: Raleway;
@@ -107,7 +112,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
   }
-  .footer_studio {
+  .footer_logos {
     color: rgb(255, 255, 255);
     font-size: 26px;
 font-family: Raleway;

@@ -1,10 +1,15 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
 body {
   font-family: Roboto;
 }
 .header {
   background-color: rgb(236, 235, 236);
 }
-.header_web {
+.header_logow {
   color: rgb(33, 150, 243);
   font-size: 26px;
 font-family: Raleway;
@@ -13,7 +18,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
 }
-.header_studio {
+.header_logos {
   color: rgb(33, 33, 33);
   font-size: 26px;
 font-family: Raleway;
@@ -55,7 +60,7 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
 }
-.main_effects {
+.lead_effects {
   color: white;
   text-align: center;
 font-size: 44px;
@@ -65,10 +70,10 @@ line-height: 60px;
 letter-spacing: 2.64px;
 text-transform: uppercase;
 }
-.main_effectsbackground {
+.lead {
     background-color: rgb(47, 48, 58);
 }
-.main_button1 {
+.lead_btn {
   text-align: center;
   width: 216px;
   height: 50px;
@@ -92,7 +97,7 @@ text-transform: uppercase;
 
   color: #ffffff;
 }
-.main_attentiondd {
+.features_meaning {
   color: rgb(33, 33, 33);
   font-size: 14px;
 font-style: normal;
@@ -101,7 +106,7 @@ line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
-.main_attentionddtext {
+.features_text {
   color: rgb(117, 117, 117);
   font-size: 14px;
 font-style: normal;
@@ -109,7 +114,7 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.42px;
 }
-.main_whatdoing {
+.photo_meaning {
   color: rgb(33, 33, 33);
   text-align: center;
 font-size: 36px;
@@ -118,11 +123,11 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
 }
-.main_commandbackground {
+.card {
   background-color: rgb(245, 244, 250);
   
 }
-.main_headcommand {
+.card_head {
   color: rgb(33, 33, 33);
   text-align: center;
 font-size: 36px;
@@ -131,7 +136,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
 }
-.main_command {
+.card_command {
   color: rgb(33, 33, 33);
   text-align: center;
 font-size: 16px;
@@ -140,7 +145,7 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.48px;
 }
-.main_commandstats {
+.card_stats {
   color: rgb(117, 117, 117);
   text-align: center;
 font-size: 16px;
@@ -152,7 +157,7 @@ letter-spacing: 0.48px;
 .footer {
   background-color: rgb(47, 48, 58);
 }
-.footer_web {
+.footer_logow {
   color: rgb(33, 150, 243);
   font-size: 26px;
 font-family: Raleway;
@@ -161,7 +166,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
 }
-.footer_studio {
+.footer_logos {
   color: rgb(255, 255, 255);
   font-size: 26px;
 font-family: Raleway;
