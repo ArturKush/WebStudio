@@ -9,6 +9,18 @@ body {
 .header {
   background-color: rgb(236, 235, 236);
 }
+.header>.container {
+  display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.header_list {
+  display: flex;
+  padding-left: 93px;
+  gap: 50px;
+  justify-content: space-between;
+  padding-right: 344px;
+}
 .header_logow {
   color: rgb(33, 150, 243);
   font-size: 26px;
@@ -26,6 +38,11 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
+}
+.header_dive {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
 }
 .header_contacts {
   text-decoration: none;
@@ -74,8 +91,7 @@ text-transform: uppercase;
     background-color: rgb(47, 48, 58);
 }
 .lead_btn {
-  text-align: center;
-  width: 216px;
+  justify-content: center;
   height: 50px;
   background: #2196f3;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
@@ -97,6 +113,17 @@ text-transform: uppercase;
 
   color: #ffffff;
 }
+.features>.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.features_list {
+  display: flex;
+  gap: 30px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .features_meaning {
   color: rgb(33, 33, 33);
   font-size: 14px;
@@ -114,7 +141,18 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.42px;
 }
+.photo_list {
+  overflow: hidden;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  margin-bottom: 94px;
+  padding: 0;
+}
 .photo_meaning {
+  margin-top: 0 ;
   color: rgb(33, 33, 33);
   text-align: center;
 font-size: 36px;
@@ -125,9 +163,20 @@ letter-spacing: 1.08px;
 }
 .card {
   background-color: rgb(245, 244, 250);
-  
 }
+  .card_list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card_item {
+    display: flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;
+  }
 .card_head {
+  margin-top: 94px;
+  margin-bottom: 50px;
   color: rgb(33, 33, 33);
   text-align: center;
 font-size: 36px;
