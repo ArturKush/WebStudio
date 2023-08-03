@@ -9,10 +9,10 @@ body {
 .header {
   background-color: rgb(236, 235, 236);
 }
-.header>.container {
+.header > .container {
   display: flex;
-align-items: center;
-justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 .header_wrapper {
   display: flex;
@@ -21,26 +21,26 @@ justify-content: space-between;
 }
 .header_list {
   display: flex;
-justify-content: center;
-gap: 50px;
+  justify-content: center;
+  gap: 50px;
 }
 .header_logow {
   color: rgb(33, 150, 243);
   font-size: 26px;
-font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
 }
 .header_logos {
   color: rgb(33, 33, 33);
   font-size: 26px;
-font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
 }
 .header_dive {
   display: flex;
@@ -50,48 +50,48 @@ letter-spacing: 0.78px;
   text-decoration: none;
   color: rgb(33, 33, 33);
   font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
 }
 .header_contacts:hover {
   color: rgb(33, 150, 243);
   font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
 }
 .header_numbmail {
   text-decoration: none;
   color: rgb(117, 117, 117);
   font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
 }
 .header_numbmail:hover {
   color: rgb(33, 150, 243);
   font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
 }
 .lead_effects {
   color: white;
   text-align: center;
-font-size: 44px;
-font-style: normal;
-font-weight: 900;
-line-height: 60px;
-letter-spacing: 2.64px;
-text-transform: uppercase;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
 }
 .lead {
-    background-color: rgb(47, 48, 58);
+  background-color: rgb(47, 48, 58);
 }
 .lead_btn {
   justify-content: center;
@@ -116,7 +116,7 @@ text-transform: uppercase;
 
   color: #ffffff;
 }
-.features>.container {
+.features > .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -130,19 +130,19 @@ text-transform: uppercase;
 .features_meaning {
   color: rgb(33, 33, 33);
   font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
 }
 .features_text {
   color: rgb(117, 117, 117);
   font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
 }
 .photo_list {
   overflow: hidden;
@@ -155,14 +155,14 @@ letter-spacing: 0.42px;
   padding: 0;
 }
 .photo_meaning {
-  margin-top: 0 ;
+  margin-top: 0;
   color: rgb(33, 33, 33);
   text-align: center;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1.08px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
 }
 .card {
   background-color: rgb(245, 244, 250);
@@ -172,11 +172,11 @@ letter-spacing: 1.08px;
   flex-wrap: nowrap;
   overflow: hidden;
   gap: 30px;
-justify-content: space-around;
-margin: 0 auto;
-padding: 0 auto;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 0;
 }
-.card_people{
+.card_people {
   width: 270px;
   height: 260px;
 }
@@ -185,29 +185,29 @@ padding: 0 auto;
   margin-bottom: 50px;
   color: rgb(33, 33, 33);
   text-align: center;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1.08px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
 }
 .card_command {
   color: rgb(33, 33, 33);
   text-align: center;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.48px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
 }
 .card_stats {
   color: rgb(117, 117, 117);
   text-align: center;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.48px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
 }
 .footer {
   background-color: rgb(47, 48, 58);
@@ -215,47 +215,47 @@ letter-spacing: 0.48px;
 .footer_logow {
   color: rgb(33, 150, 243);
   font-size: 26px;
-font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
 }
 .footer_logos {
   color: rgb(255, 255, 255);
   font-size: 26px;
-font-family: Raleway;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.78px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.78px;
 }
 .footer_adress {
   color: white;
   font-size: 14px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.42px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
 }
 .footer_contacts {
   color: rgb(117, 117, 117);
   font-size: 14px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.42px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
 }
 .footer_contacts:hover {
-    color: rgb(33, 150, 243);
-    font-size: 14px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.42px;
+  color: rgb(33, 150, 243);
+  font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
 }
 li {
   list-style-type: none;

@@ -3,81 +3,89 @@
   margin: 0 auto;
   border: 1px solid red;
 }
+ul {
+  padding: 0;
+  list-style-type: none;
+}
 body {
   font-family: Roboto;
 }
 li {
     list-style-type: none;
   }
-.header {
+  .header {
     background-color: rgb(236, 235, 236);
   }
-  .header>.container {
+  .header > .container {
     display: flex;
- align-items: center;
- justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header_wrapper {
+    display: flex;
+    gap: 93px;
+    align-items: center;
   }
   .header_list {
     display: flex;
-    padding-left: 93px;
-    gap: 50px;
-    justify-content: space-between;
-    padding-right: 344px;
-  }
-  .header_dive {
-    display: flex;
+    justify-content: center;
     gap: 50px;
   }
   .header_logow {
     color: rgb(33, 150, 243);
     font-size: 26px;
-font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
   }
   .header_logos {
     color: rgb(33, 33, 33);
     font-size: 26px;
-font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
   }
-.header_contacts {
+  .header_dive {
+    display: flex;
+    gap: 50px;
+  }
+  .header_contacts {
     text-decoration: none;
     color: rgb(33, 33, 33);
     font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
   }
   .header_contacts:hover {
     color: rgb(33, 150, 243);
     font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
   }
   .header_numbmail {
+    text-decoration: none;
     color: rgb(117, 117, 117);
     font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
   }
   .header_numbmail:hover {
     color: rgb(33, 150, 243);
     font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
   }
   .hub {
     padding-top: 94px;
@@ -116,6 +124,13 @@ letter-spacing: 0.48px;
 .menu_list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu_photo {
+  width: 370px;
+height: 294px;
+flex-shrink: 0;
 }
 .menu_item {
   display: flex;
