@@ -14,12 +14,15 @@ body {
 align-items: center;
 justify-content: space-between;
 }
+.header_wrapper {
+  display: flex;
+  gap: 93px;
+  align-items: center;
+}
 .header_list {
   display: flex;
-  padding-left: 93px;
-  gap: 50px;
-  justify-content: space-between;
-  padding-right: 344px;
+justify-content: center;
+gap: 50px;
 }
 .header_logow {
   color: rgb(33, 150, 243);
@@ -41,8 +44,7 @@ letter-spacing: 0.78px;
 }
 .header_dive {
   display: flex;
-  justify-content: space-around;
-  width: 300px;
+  gap: 50px;
 }
 .header_contacts {
   text-decoration: none;
@@ -62,6 +64,7 @@ line-height: normal;
 letter-spacing: 0.28px;
 }
 .header_numbmail {
+  text-decoration: none;
   color: rgb(117, 117, 117);
   font-size: 14px;
 font-style: normal;
@@ -164,16 +167,19 @@ letter-spacing: 1.08px;
 .card {
   background-color: rgb(245, 244, 250);
 }
-  .card_list {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .card_item {
-    display: flex;
-  flex-direction: column;
-align-items: center;
-justify-content: center;
-  }
+.card_list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  gap: 30px;
+justify-content: space-around;
+margin: 0 auto;
+padding: 0 auto;
+}
+.card_people{
+  width: 270px;
+  height: 260px;
+}
 .card_head {
   margin-top: 94px;
   margin-bottom: 50px;
